@@ -1,0 +1,135 @@
+#paragraph {
+    background-color: green; /*  Change to Green */
+}
+h1.heading {
+    background-color: red;
+}
+.heading {
+    background-color: pink;
+}
+*{
+    color : blue ;
+}
+/* h1,p{
+    color: aqua;
+} */
+/* body {
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red) ;
+    opacity: 0.4;
+    background-image: url("https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcRYQlWE2LICK3E5_UM6aluNC3fwK55s_M70vXSBtZYMqjKbq642QYS2y6w-QeFb-xfrIbezMpQVDOFftng");
+    background-position: center;
+} */
+p{
+    /* margin-left: 20px; Margin of p tag in left is 20px another way 20%   */
+    /* margin-top: 20px;  Margin of p tag in top in 20px */
+    /* margin-bottom: 20px; */
+    /* margin: 50px 50px 50px 50px; All in one line of code  */
+    /* border-style: dotted; */
+    /* border-style: solid; */
+    /* border-style: groove; */
+    /* border-style: dashed; */
+    /* border-style: double; */
+    /* border-style: ridge; */
+    /* border-style: outset; */
+    /* border-style: inset;  none hidden to not show border*/
+    /* border-style: dashed double dotted solid; */
+    /* border-style: solid; */
+    /* border-width: 10px 5px 10px 20px; */
+    /* border-width: 10px 5px; */
+    /* border-color: rebeccapurple orange pink gold; */
+    /* border-top-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: dashed; */
+    /* border: 3px solid gold;
+    border-radius: 10px;
+    padding: 10px; */
+    /* height: 100%;
+    width: 100%;
+    background-color: gold;
+    outline-style: solid;
+    outline-offset: 5px;
+    outline-color: black; */
+    /* vertical-align: top; */
+    /* text-decoration-line: line-through ;
+    text-decoration-color:darkcyan ;
+    text-decoration-style:double ;
+    text-decoration-thickness:5px; */
+    /* text-decoration: dashed overline red 4px;
+    text-transform: capitalize;
+    text-indent: 30px;
+    letter-spacing: 10px; */
+    /* font-style: normal; */
+    /* font-weight: bold;*/
+    /* upto 2:46 */
+    text-decoration: line-through ghostwhite 0.5px;
+
+/* }
+table,th,td{
+    /* display: none; */
+    /* visibility: hidden; */
+    /* border: 2px solid; */
+    /* width: 50%; */
+    /* border-collapse: collapse; */
+}
+/* th{
+    height: 50px;
+} */
+/* th,td{
+    text-align: center;
+    padding: 5px;
+} */
+/* tr:hover{
+    background-color: wheat;
+}
+a{
+    text-decoration: line-through;
+}  */
+/* h3 b{
+    background-color: aquamarine;   Descendant selector
+} 
+h3 > b{
+    background-color: aquamarine;   Child Selector
+} 
+h3 + b{
+    background-color: aquamarine;  Adjacent Selector
+} 
+h3 ~ b{
+    background-color: aquamarine; General Sibiling Selector
+}  */
+.dropdownbutton{
+    background-color: lightblue;
+    color: red;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown{
+    position: relative;
+    display: inline-block ;
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: pink; 
+    min-width: 150px;
+}
+.dropdown-menu a{
+    color: black;
+    padding: 11px 15px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-menu a:hover{
+    background-color: white;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+.dropdown:hover .dropdownbutton{
+    background-color: brown;
+}
+div[class="test"]{
+    color: yellow;
+}
